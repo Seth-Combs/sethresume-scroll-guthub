@@ -1,0 +1,349 @@
+/*CSS rest*/
+
+html, body {
+    max-width: 100%;
+    padding-top: 100;
+}
+
+
+
+:root{ --blue : rgb(14, 27, 44);
+
+        --black: #000;
+
+        --red: rgb(156, 4, 4);
+
+        --white: #fff;
+
+        --grey:rgb(215, 213, 213);
+
+        --drkgrey:rgb(156, 156, 156);
+
+        --yellow:rgb(247, 245, 236);
+
+        --midgrey:rgb(53, 52, 52);
+
+}
+
+
+
+
+
+*{ margin: 0;
+
+    padding: 0;
+
+    
+
+    font-family:baskerville;
+}
+
+
+img{max-width: 70%;
+    
+    max-height: 100%;
+
+}
+
+
+
+
+
+header{ background-color: var(--yellow);
+
+        padding: 20px 35px;
+
+        height: 60px;
+
+        position:-webkit-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        z-index: 1000;
+
+}
+
+header h1  { font-size: 36px;
+
+            margin: 0;
+
+            display: inline;
+
+            text-decoration: none;
+
+            font-weight: lighter;
+
+}
+
+header  a {text-decoration: none;
+
+            color: var(--red);
+
+            font-weight: lighter;
+}
+
+
+
+
+
+header nav{float: right;
+
+            margin: 7px 0;
+
+            
+
+}
+
+
+header nav ul li {display: inline;
+
+}
+
+
+header nav ul li a{margin: 0 30px;
+
+                    font-size: 22px;
+
+}
+
+
+
+section{padding: 60px;
+
+}
+
+
+
+.section-title{font-size: 55px;
+
+                color: var(--blue);
+
+                margin-bottom: 35px;
+
+                padding: 0 100px 20px 100px;
+
+                display: inline-block;
+
+                border-bottom: 3px solid;
+}
+
+
+
+#intro{
+
+    background-color: var(--white) ;
+
+    height: 112px;
+
+    padding: 20px 25px 30px;
+
+    color: var(--red);
+
+}
+
+#intro p{ font-family: cursive ;
+
+
+
+}
+
+
+
+
+#about{  background-size: cover;
+
+        background-color: var(--white);
+
+        height: 680px;
+
+        position: relative;
+
+        background-size: cover;
+
+        background-position: center;
+
+        text-align: center;
+
+        padding: 80px 35px;
+       
+         width: 100%;
+
+         scroll-margin-top: 100px;
+
+
+
+}
+
+#about h2{ color: var(--midgrey)
+
+
+
+}
+
+
+#about-headshot{ height: 685px;
+
+                 width: 685px;
+
+                 float: right;
+
+                 padding: 95px 145px 145px;
+
+                 
+
+                 
+
+   
+}
+
+
+#skills {background-size: cover;
+
+         background-image: url(../images/DSCF7398-Pano-skills-rockwall.jpg);
+
+         height: 765px;
+
+         position: relative;
+
+         background-size: cover;
+
+         background-position: center;
+
+         text-align: center;
+
+         padding: 40px 35px;
+       
+         width: 100%;
+
+         color: var(--black);
+
+         scroll-margin-top: 100px;
+
+}
+
+
+#skills a { color: var(--red);
+
+            text-decoration:underline;
+
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#skills h2{ color: var(--white);
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#skills h4{ color: var(--white);
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+
+
+}
+
+
+
+#contact {background-size: cover;
+
+         background-position: center;
+
+          background-image: url(../images/DSCF8233-Edit-hero-web.png);
+
+          height: 600px;
+
+          position: relative;
+
+
+}
+
+#contact h2{color: var(--midgrey);
+
+
+
+}
+
+#hero { position: 50%;
+
+
+
+}
+  
+
+
+
+#headshot {height: 375px;
+
+           width: 375px;
+
+           float: right;
+
+           padding: 65px 10px;
+
+           
+
+           margin-left: 100px;
+
+           
+}
+
+
+#contact-form{  border: solid 2px var(--black);
+
+                padding: 20px;
+
+                width: 500px;
+
+                opacity: 0.6;
+
+                position: relative;
+
+                left: 80px;
+
+                top: 20px;
+
+                bottom: 120px;
+
+                background-color: var(--white);
+
+}
+
+#contact-form a{ color:var(--red);
+
+                text-decoration: none;
+
+}
+
+
+
+footer{text-align: center;
+
+       background-color: var(--yellow);
+
+       padding: 40px 35px;
+       
+       width: 100%;
+}
+
+footer a {color: var(--red);
+
+          text-decoration: none;
+}
+
+footer p {color: var(--drkgrey);
+
+         text-decoration: none;
+
+
+}
+
+
+
+
+
+
