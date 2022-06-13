@@ -251,13 +251,15 @@ section{padding: 60px;
 
 #contact {background-size: cover;
 
-         background-position: center;
+          background-position: center;
 
           background-image: url(../images/DSCF8233-Edit-hero-web.png);
 
           height: 600px;
 
           position: relative;
+
+          
 
 
 }
@@ -283,11 +285,8 @@ section{padding: 60px;
 
            float: right;
 
-           padding: 65px 10px;
-
            
 
-           margin-left: 100px;
 
            
 }
